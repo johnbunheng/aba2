@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 950px;
+    height: 130px;
+    margin: auto;
+}
+.logo img{
+    flex: 1;
+    width: 90px;
+    height: 110px;
+    margin-top: -5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.menu ul li input{
+    margin-top: -5px;
+    width:60px;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+    padding-left: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 1s;
+    outline: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li input:hover{
+    width: 200px;
+    border: 1px solid #0b6477;
+    box-shadow: 5px 5px 15px 5px rgba(57, 5, 214, 0.10);
+}
+.menu ul li #khmer{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Khmer Kep;
+}
+.menu ul li #ABA{
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(238, 0, 0);
+    border-radius: 20px;
+}
+.menu1{
+    background-color: #0b6477;
+    width: 940px;
+    margin-left: 285px;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 1;
+    position:sticky;
+    top: 0;
+    
+}
+.menu1 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.menu1 ul li{
+    display: inline-block;
+}
+.menu1 ul li p{
+    margin-left: 22px;
+    margin-top: 10px;
+    display: block;
+    color: white;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.menu1 ul li ul{
+    position: absolute;
+    background-color: white;
+}
+.menu1 ul li ul li{
+    display: block;
+}
+.menu1 ul li ul li a{
+    color:#0b6477 ;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: none;
+}
+.menu1 ul li ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.menu1 ul li:hover ul li a{
+    display: block;    
+}
+.piture img{
+    width: 940px;
+    margin-left: 285px;
+    z-index: 0;
+    margin-top: -65px;
+}
